@@ -3,7 +3,7 @@ Early warning system for improving supply reliability at Saku Metall
 *This is a template repository for this organization. Start by replacing the placeholder for the project name with its actual title.*
 
 ## Summary
-| Company Name | [Company](https://website.link) |
+| Company Name | [SakuMetall](https://sakumetall.ee/) |
 | :--- | :--- |
 | Development Team Lead Name | Tara Ghasempouri |
 | Development Team Lead E-mail | tara.ghasempouri@taltech.ee |
