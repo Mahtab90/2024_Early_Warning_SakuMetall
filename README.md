@@ -20,6 +20,7 @@ The aim of the project was to improve the order receiving and processing process
 The broadest goal of the demo project was to increase supply reliability, but there were many smaller goals as well, that are similarly important. For example: reducing the possibility of human error, reducing repetitive (data management) work, increasing employee productivity, optimizing the purchasing process and inventory, increasing material utilization efficiency, reducing waste generation, and improving customer satisfaction.
 The result of the demo project was to develop an artificial intelligence solution that enables:
     • Obtain information about unique behavior in multi-level Bill of Material (BOM). Unique behavior occurs when BOM consists of unique parts, material and purchased components which are used rarely.
+    
 ## Activities and Results of the Demonstration Project
 ### Challenge
 Saku Metall Project Summary:
@@ -30,8 +31,8 @@ During the course of the project, we also discovered that the dataset is updated
 Additionally, we found that the AI algorithms we initially used—namely the Apriori algorithm and FP-Growth, both well-known for association rule mining—were not well-suited to the specific nature of this dataset. These algorithms rely on a tokenization process that proved to be extremely resource-intensive due to redundant operations that were not necessary for our use case.
 Based on the Development team’s in-depth understanding, it became clear that optimizing the tokenization step was essential. We reviewed the inner workings of both algorithms and implemented customized modifications to significantly improve their efficiency. These adjustments made the process much less resource-hungry while maintaining high accuracy in identifying rare and unique patterns in the BOM.
 This approach differed substantially from the initial plan, which assumed the AI algorithms could be applied directly without customization.
-### Data Sources
 
+### Data Sources
 The tool operates using three primary input files, all placed under the /Input/ folder:
 
 1. Historical_BOM.zip: A collection of archived Excel BOM files gathered from previous orders and projects. These represent the historical baseline used to compute frequency-based rarity metrics.
